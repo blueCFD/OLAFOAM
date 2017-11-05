@@ -92,6 +92,11 @@ if isMinGW && [ $OF_VERSION -lt 500 ]; then
     wmakeVerifyExeDependencies solvers/$OF_SOLVER
     wmake all solvers/$OF_SOLVER
 
+    if (( $? )) ; then 
+        echo "olaFoam and/or olaDyMFoam compilation failed"
+        exit
+    fi
+
 fi
 
 
@@ -102,3 +107,4 @@ if [ $WM_PROJECT == "foam" ]; then
     rm -fr genAbs/*/lnInclude
 fi
 
+echo -e "\n\nOLAFOAM has been installed successfully for $WM_PROJECT $WM_PROJECT_VERSION\n\n\n";   
