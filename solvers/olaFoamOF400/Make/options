@@ -21,3 +21,10 @@ EXE_LIBS = \
     -L$(FOAM_USER_LIBBIN) \
     -lwaveGeneration \
     -lwaveAbsorption
+
+EXE_LIBS += \
+    -limmiscibleIncompressibleTwoPhaseMixture \
+    -ltwoPhaseMixture \
+    -lincompressibleTransportModels \
+    -linterfaceProperties \
+    -ltwoPhaseProperties
