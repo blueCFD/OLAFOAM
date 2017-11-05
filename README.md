@@ -1,5 +1,17 @@
 OLAFOAM
-======
+=======
+
+# Prologue
+
+This is a fork of OLAFOAM, made to work with blueCFD-Core: http://bluecfd.github.io/Core/
+
+For more details, see:
+
+ * The wiki page for building OLAFOAM with blueCFD-Core: https://github.com/blueCFD/Core/wiki/Building-OLAFOAM-with-blueCFD-Core
+ * For any problems with using OLAFOAM with blueCFD-Core, please report it here: https://github.com/blueCFD/Core/issues
+
+The original text in README.md from OLAFOAM is shown below.
+
 
 # Description
 
