@@ -66,7 +66,7 @@ Description
 
 #include "fvCFD.H"
 #include "dynamicFvMesh.H"
-#include "CMULES.H"
+#include "CMULES.T.H"
 #include "subCycle.H"
 #include "interfaceProperties.H"
 #include "incompressibleTwoPhaseMixture.H"

@@ -70,10 +70,10 @@ Description
 \*---------------------------------------------------------------------------*/
 
 #include "fvCFD.H"
-#include "CMULES.H"
-#include "EulerDdtScheme.H"
+#include "CMULES.T.H"
+#include "EulerDdtScheme.T.H"
 #include "localEulerDdtScheme.H"
-#include "CrankNicolsonDdtScheme.H"
+#include "CrankNicolsonDdtScheme.T.H"
 #include "subCycle.H"
 #include "immiscibleIncompressibleTwoPhaseMixture.H"
 #include "turbulenceModel.H"
